@@ -1,0 +1,75 @@
+#in-contact-page {
+    color: #5FB4A2;
+}
+
+.about-contact-text, .send-contact {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact-text {
+    text-align: left;
+    width: 700px;
+}
+
+.menu-social-media {
+    margin: 50px 0;
+}
+
+.menu-social-media li {
+    margin: 0 20px;
+}
+
+.contact-area {
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+input  {
+    background-color: #EAEAEB;
+    border-style: none;
+
+    padding: 23px 32px;
+    height: 48px;
+}
+
+textarea {
+    background-color: #EAEAEB;
+    resize: none;
+    border-style: none;
+
+    padding: 23px 32px;
+    
+    font-family: 'Public Sans', sans-serif; 
+    font-size: 16px;
+}
+
+.menu-contact-send {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-contact-send li {
+    margin: 10px 0;
+}
+.menu-contact-send p {
+    margin: 5px 0;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.button-send-contact {
+    background-color: #203A4C;
+    border-style: none;
+    color: #FFFFFF;
+}
+.button-send-contact:hover{
+    background-color: #5FB4A2;
+}
